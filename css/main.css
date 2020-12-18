@@ -20,10 +20,14 @@ header {
     text-decoration: none;
 }
 
+.article-content {
+    text-align: left;
+}
+
 /* navigation */
 nav {
     display: inline-block;
-    width: 40%;
+    width: 50%;
 }
 
 nav ul {
@@ -81,15 +85,79 @@ nav ul li {
     color: #FFF;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -130%);
+    transform: translate(-50%, -110%);
 }
 
 h1 {
-    font-size: 42pt;
+    font-size: 58pt;
 }
 
-button {
+h2 {
+    margin: 0;
+}
+
+.button-connect {
+    font-size: 1em;
     border: none;
     padding: 2em;
     background-color: #C78B07;
+}
+
+.button-article {
+    font-size: 1em;
+    border: none;
+    padding: 2em;
+    color: white;
+    background-color: #222222;
+    margin: 1em;
+}
+
+.grid-container {
+    display: grid;
+    margin: 200px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.grid-container :nth-child(1) {
+    grid-column: 1/ span 3;
+
+}
+
+.grid-container :nth-child(2) {
+    grid-column: 4/ span 3;
+
+}
+
+.grid-container :nth-child(3) {
+    grid-column: 1/ span 2;
+    grid-row: 2/ span 1;
+
+}
+
+.grid-container :nth-child(4) {
+    grid-column: 3/ span 2;
+    grid-row: 2/ span 1;
+
+}
+
+.grid-container :nth-child(5) {
+    grid-column: 5/ span 2;
+    grid-row: 2/ span 1;
+
+}
+
+/* Card CSS */
+
+.card{
+    background-color: #FFE6AC;
+    font-size: 1.50em;
+    margin: 1em;
+    padding: 0.5em;
+}
+
+.card-image {
+    position: relative;
+    transform: translate( 60%, 0%);
 }
