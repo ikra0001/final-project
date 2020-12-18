@@ -12,33 +12,43 @@
     <div class="content-holder">
     <!-- Website banner and navigation-->
       <header>
-        <img src="images/logo.png" alt="logo"> 
+        <div class="logo">
+          <img src="images/logo.png" alt="logo"> 
+        </div>
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="team.html">Team</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="navlink"><a href="index.html">Home</a></li>
+            <li class="navlink"><a href="about.html">About Us</a></li>
+            <li class="navlink"><a href="services.html">Services</a></li>
+            <li class="navlink"><a href="team.html">Team</a></li>
+            <li class="navlink"><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
         <div class="search-bar">
             <input type="text" id="search" name="search" required>
-            <button type="button" value="send"><a href=""></button> 
-          </div>
+            <button type="button" value="search" href="">&#128269</button> 
+        </div>
       </header>
-      <!-- Main Content !! change articles to divs-->
+
+      <!-- Main Content !! change divs to divs-->
+
+      <figure  class="banner-figure">
+        <img  class="banner-image" src="images/main-banner.jpg" alt="office">
+      </figure>
+
+      <div class="banner">   
+        <div class="banner-text">
+          <h1 class="main-title">Welcome to Three Star Media</h1>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <button type="button" value="send" href="contact.html">Connect with us &#8250</button>
+       </div>
+      </div> 
+      
       <div class="article-content">
-        <article>
-          <h1>Welcome to Three Star Media</h1>
-          <img class="banner-image" src="images/main-banner.jpg" alt="office">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <button type="button" value="send"><a href="contact.html">Connect with us</button>
-        </article>
-        <article>
-        <img class="banner-image" src="images/about-us.jpg" alt="recreation room">
+        <div>
+          <img class="" src="images/about-us.jpg" alt="recreation room">
           <h2>About Us</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -46,79 +56,78 @@
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
-        </article>
+        </div>
 
         <!-- Second H2 -->
-
-        <article>
-            <h2>Our Services</h2>
-            <img class="banner-image" src="images/digital.jpg" alt="laptop and phone">
-            <h3>Digital Transformation</h3>
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <button type="button" value="send"><a href="services.html">Digital Plans</button>
-        </article>
-        <article>
-            <img class="banner-image" src="images/marketing.jpg" alt="laptop">
+        <h2>Our Services</h2>
+        <div>
+          <img src="images/digital.jpg" alt="laptop and phone">
+          <h3>Digital Transformation</h3>
+          <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <button type="button" value="send" href="services.html">Digital Plans</button>
+        </div>
+        <div>
+            <img src="images/marketing.jpg" alt="laptop">
             <h3>Marketing</h3>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button type="button" value="send"><a href="">Marketing Plans</button>
-        </article>
-        <article>
-            <img class="banner-image" src="images/video.jpg" alt="laptop">
+            <button type="button" value="send" href="">Marketing Plans</button>
+        </div>
+        <div>
+            <img src="images/video.jpg" alt="laptop">
             <h3>Video Production</h3>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button type="button" value="send"><a href="">Video Plans</button>
-        </article>
-        <article>
-            <img class="banner-image" src="images/web.jpg" alt="laptop">
+            <button type="button" value="send" href="">Video Plans</button>
+        </div>
+        <div>
+            <img src="images/web.jpg" alt="laptop">
             <h3>Web Development</h3>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button type="button" value="send"><a href="">Web Plans</button>
-        </article>
-        <article>
-            <img class="banner-image" src="images/Print.jpg" alt="laptop">
+            <button type="button" value="send" href="">Web Plans</button>
+        </div>
+        <div>
+            <img src="images/Print.jpg" alt="laptop">
             <h3>Print</h3>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button type="button" value="send"><a href="">Print Plans</button>
-        </article>
+            <button type="button" value="send" href="">Print Plans</button>
+        </div>
         <div>
-            <img class="banner-image" src="images/vision.jpg" alt="paperboats">
+            <img src="images/vision.jpg" alt="paperboats">
             <h3>Our Vision</h3>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button type="button" value="send"><a href="">Learn More</button>
+            <button type="button" value="send" href="">Learn More</button>
         </div>
 
         <!-- Third H2 -->
 
-        <article>
+        <div>
             <h2>Our Team</h2>
-            <img class="banner-image" src="images/john.jpg" alt="john">
+            <img src="images/john.jpg" alt="john">
             <h3>John Doe</h3>
             <h4>CEO and Co-owner</h4>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-        </article>
-        <article>
-            <img class="banner-image" src="images/bob.jpg" alt="laptop">
+        </div>
+        <div>
+            <img src="images/bob.jpg" alt="laptop">
             <h3>Bob Rite</h3>
             <h4>CFO and Co-owner</h4>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-        </article>
+        </div>
         <h2>Contact Us</h2>
         <form>
             <h3>Send us a message</h3>
